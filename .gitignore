@@ -1,0 +1,19 @@
+# Dependencies and local caches
+node_modules/
+.npm-cache/
+contracts/.npm-cache/
+contracts/cache/
+contracts/out/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Generated compiler artifacts
+contracts/*.abi
+contracts/*.bin
+
+# Local logs and scratch work
+*.log
+work/
