@@ -1,0 +1,6 @@
+out/
+cache/
+.npm-cache/
+*.abi
+*.bin
+
